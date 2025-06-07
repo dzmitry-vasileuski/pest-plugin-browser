@@ -90,8 +90,7 @@ final class ServerManager
             __DIR__.'/..',
             'npx playwright run-server --host %s --port %d',
             self::DEFAULT_HOST,
-            'Listening on',
-            8077,
+            'Listening on'
         );
     }
 }
